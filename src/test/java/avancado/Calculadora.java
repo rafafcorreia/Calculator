@@ -72,7 +72,7 @@ public class Calculadora{
                 desiredCapabilities.setCapability("SAUCE_USERNAME", "rafafcorreia");
                 desiredCapabilities.setCapability("SAUCE_ACCESS_KEY", "948a3999-def6-47bf-88e0-96c8be289ee2");
 
-                remoteUrl = new URL("https://rafafcorreia:948a3999-def6-47bf-88e0-96c8be289ee2@ondemand.us-west-1.saucelabs.com:443/wd/hub");
+                remoteUrl = new URL("https:/---saucelabs.com:---/wd/hub");
                 break;
 
             case "EL":
@@ -154,7 +154,7 @@ public class Calculadora{
         desiredCapabilities.setCapability("SAUCE_USERNAME", "rafafcorreia");
         desiredCapabilities.setCapability("SAUCE_ACCESS_KEY", "948a3999-def6-47bf-88e0-96c8be289ee2");
 
-        remoteUrl = new URL("https://rafafcorreia:948a3999-def6-47bf-88e0-96c8be289ee2@ondemand.us-west-1.saucelabs.com:443/wd/hub");
+        remoteUrl = new URL("https://---.saucelabs.com:---/wd/hub");
 
         //Abri o app
         driver = new AndroidDriver<>(remoteUrl, desiredCapabilities);
